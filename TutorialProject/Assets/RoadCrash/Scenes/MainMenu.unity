@@ -12768,6 +12768,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   slots: []
+  currentItem: {fileID: 0}
+  itemsDatabase: {fileID: 0}
 --- !u!1 &1543148131
 GameObject:
   m_ObjectHideFlags: 0
