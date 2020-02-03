@@ -54,7 +54,7 @@ public class ResourcePanel_C : MonoBehaviour
 	public void Init()
 	{
 		UpdatePlayerResources();
-		instance.playerLevel.text = DataManager.playerData.playerLevel.ToString();
+		instance.playerLevel.text = (DataManager.playerData.playerLevel+1).ToString();
 		instance.playerXpSlider.value = XpManager.GetPlayerXpRatio();
 	}
 	#endregion
@@ -117,8 +117,6 @@ public class ResourcePanel_C : MonoBehaviour
 	{
 		playerLevel.text = xpLevel.ToString();
 		playerXpSlider.value = ((float)xpCount / (float)remainingXpCount);
-
-
 	}
 	#endregion
 

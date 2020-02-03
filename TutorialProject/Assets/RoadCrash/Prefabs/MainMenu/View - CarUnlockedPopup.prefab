@@ -3193,7 +3193,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 7917147334776690148}
         m_MethodName: HideCarUnlockedPopup
         m_Mode: 1
         m_Arguments:

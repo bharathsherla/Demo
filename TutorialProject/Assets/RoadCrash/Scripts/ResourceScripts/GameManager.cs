@@ -14,6 +14,7 @@ public class GameManager : MonoBehaviour
 	#region Variables
 	public CarPanel_C carPanel_C;
 	public ResourcePanel_C resourcePanel_C;
+	public XpLevelPopup_C xpLevelPopup;
 
 	public UIView testSettingsView;
 	#endregion
@@ -67,5 +68,25 @@ public class GameManager : MonoBehaviour
 	{
 		Initialize();
 	}
+
+	private void OnEnable()
+	{
+		XpManager.OnXpCountUpdated += OnXpValueUpdated;
+	}
+
+	private void OnDisable()
+	{
+		XpManager.OnXpCountUpdated -= OnXpValueUpdated;
+	}
+
+	private void OnXpValueUpdated(int xpLevel, long xpCount, long remainingXpCount, bool hasIncreasedPlayerXpLevel)
+	{
+		if(hasIncreasedPlayerXpLevel)
+		{
+			Debug.Log("GameManager, Player Level increased");
+			xpLevelPopup.ShowXpLevelPopup(xpLevel);
+		}
+	}
+
 	#endregion
 }
