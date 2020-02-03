@@ -12,4 +12,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c0beb2cd2766a14eb12d36cdca89cd1, type: 3}
   m_Name: GameDatabase
   m_EditorClassIdentifier: 
-  items: []
+  items:
+  - {fileID: 21300000, guid: efbb71c97f967934b83d5ed9039de677, type: 3}
+  - {fileID: 21300000, guid: 16a4a14ab568aa344b55713cf1e9bba4, type: 3}
+  - {fileID: 21300000, guid: c297dbba91f03e64dafa0dac15934b2d, type: 3}
+  - {fileID: 21300000, guid: 3396bbb3f3582ad498440b1d926b08cf, type: 3}
+  - {fileID: 21300000, guid: b6ab7df77edada744b328b64e2ff7725, type: 3}
+  - {fileID: 21300000, guid: b3572afee465c594091504736631a196, type: 3}
+  - {fileID: 21300000, guid: efb4198e344e94e4197f194cc7780c71, type: 3}
+  - {fileID: 21300000, guid: e89e962df6fa3dd47ae0c2ed77eda6ed, type: 3}
+  - {fileID: 21300000, guid: 4eadf08056bc2234193cb9dfa1515c2c, type: 3}
+  - {fileID: 21300000, guid: ccc66e26d373229449acc8d38db7b5e8, type: 3}
+  - {fileID: 21300000, guid: 3eb8f83a9e3fb2549928068dba43e728, type: 3}
+  - {fileID: 21300000, guid: 3eb8f83a9e3fb2549928068dba43e728, type: 3}
+  - {fileID: 21300000, guid: 3eb8f83a9e3fb2549928068dba43e728, type: 3}
+  - {fileID: 21300000, guid: 3eb8f83a9e3fb2549928068dba43e728, type: 3}
+  - {fileID: 21300000, guid: 3eb8f83a9e3fb2549928068dba43e728, type: 3}
+  - {fileID: 21300000, guid: 3eb8f83a9e3fb2549928068dba43e728, type: 3}
+  - {fileID: 21300000, guid: 3eb8f83a9e3fb2549928068dba43e728, type: 3}
+  - {fileID: 21300000, guid: 3eb8f83a9e3fb2549928068dba43e728, type: 3}
+  - {fileID: 21300000, guid: 3eb8f83a9e3fb2549928068dba43e728, type: 3}
+  - {fileID: 21300000, guid: 3eb8f83a9e3fb2549928068dba43e728, type: 3}
+  carCashValues: 64000000e8030000d0070000b80b0000a00f00008813000070170000581b0000401f00002823000010270000204e000030750000409c000050c3000060ea00007011010080380100905f0100a0860100

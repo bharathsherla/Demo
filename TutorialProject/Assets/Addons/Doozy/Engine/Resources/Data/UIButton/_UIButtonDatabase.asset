@@ -18,7 +18,9 @@ MonoBehaviour:
   - Example
   - General
   - DashBoard
+  - ExitButtons
   Categories:
   - {fileID: 11400000, guid: 40f9e81ff80114a47a3721228ba749ed, type: 2}
   - {fileID: 11400000, guid: 55fdb6aff8f09134f938b495c352473e, type: 2}
   - {fileID: 11400000, guid: 2b4a399c71eb5ef4ab9ff7616848a10e, type: 2}
+  - {fileID: 11400000, guid: 478d913e738bd794a80fe146653da487, type: 2}

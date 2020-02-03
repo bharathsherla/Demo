@@ -7,4 +7,5 @@ using UnityEngine.UI;
 public class GameDatabase : ScriptableObject
 {
 	public List<Sprite> items;
+	public List<int> carCashValues;
 }

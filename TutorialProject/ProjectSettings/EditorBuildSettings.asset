@@ -4,5 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/RoadCrash/Scenes/InitScene.unity
+    guid: ccf609a4e6645c449ad5aab9527d73ba
+  - enabled: 1
+    path: Assets/RoadCrash/Scenes/MainMenu.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/RoadCrash/Scenes/GamePlay.unity
+    guid: 211d317a01836904097d430f719e09c2
   m_configObjects: {}
