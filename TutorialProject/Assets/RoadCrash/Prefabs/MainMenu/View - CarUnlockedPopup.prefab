@@ -3291,6 +3291,7 @@ GameObject:
   - component: {fileID: 6999440017128255553}
   - component: {fileID: 6999440017128255552}
   - component: {fileID: 6999440017128255583}
+  - component: {fileID: 7917147334776690148}
   m_Layer: 0
   m_Name: View - CarUnlockedPopup
   m_TagString: Untagged
@@ -3817,6 +3818,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6999440017128255580}
   m_CullTransparentMesh: 0
+--- !u!114 &7917147334776690148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6999440017128255580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d0193e7a3d99a64ba33676fdbad7a29, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  carImage: {fileID: 6999440016827382313}
+  accelarationSlider: {fileID: 6999440016383640581}
+  speedSlider: {fileID: 6999440017424356667}
 --- !u!1 &6999440017308162446
 GameObject:
   m_ObjectHideFlags: 0
