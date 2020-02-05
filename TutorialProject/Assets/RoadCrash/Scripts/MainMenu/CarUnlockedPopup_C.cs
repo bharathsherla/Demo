@@ -19,6 +19,7 @@ public class CarUnlockedPopup_C : MonoBehaviour
 	/// </summary>
 	public void HideCarUnlockedPopup()
 	{
+		GameManager.instance.UpdateCar(DataManager.playerData.playerUnlockedCarIndex);
 		GetComponent<UIView>().Hide();
 	}
 

@@ -42,7 +42,10 @@ public class Item : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHand
 
 	public void OnDrag(PointerEventData eventData)
 	{
-		transform.position = eventData.position;
+		//transform.position = eventData.position;
+		Vector3 screenPoint = eventData.position;
+		screenPoint.z = 100f;
+		transform.position = Camera.main.ScreenToWorldPoint(screenPoint);
 	}
 
 	public void OnEndDrag(PointerEventData eventData)

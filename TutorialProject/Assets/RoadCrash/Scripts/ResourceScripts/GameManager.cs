@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using Doozy.Engine.UI;
+using UnityEngine.UI;
 
 
 /// <summary>
@@ -17,6 +18,9 @@ public class GameManager : MonoBehaviour
 	public XpLevelPopup_C xpLevelPopup;
 
 	public UIView testSettingsView;
+	[SerializeField]private GameObject[] carModels;
+	[SerializeField] private Slider speedSlider;
+	[SerializeField] private Slider AccelarationSlider;
 	#endregion
 
 	#region Public Methods
@@ -25,6 +29,21 @@ public class GameManager : MonoBehaviour
 		carPanel_C.Init();
 		XpManager.Initialize();
 		resourcePanel_C.Init();
+		UpdateCar(DataManager.playerData.playerUnlockedCarIndex);
+	}
+
+	/// <summary>
+	///  Based on the PlayerSelected Car Index show the car Model.
+	/// </summary>
+	public void UpdateCar(int playerCarIndex)
+	{
+		for(int i = 0; i < carModels.Length;i++)
+		{
+			carModels[i].SetActive(false);
+		}
+		carModels[playerCarIndex].SetActive(true);
+		speedSlider.value = CarData.GetCarSpeed();
+		AccelarationSlider.value = CarData.GetCarAccelaration();
 	}
 	#endregion
 
