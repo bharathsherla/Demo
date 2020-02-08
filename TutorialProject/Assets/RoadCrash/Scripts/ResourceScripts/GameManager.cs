@@ -21,6 +21,7 @@ public class GameManager : MonoBehaviour
 	[SerializeField]private GameObject[] carModels;
 	[SerializeField] private Slider speedSlider;
 	[SerializeField] private Slider AccelarationSlider;
+	[SerializeField] private InputField playerName;
 	#endregion
 
 	#region Public Methods
@@ -86,16 +87,20 @@ public class GameManager : MonoBehaviour
 	private void Start()
 	{
 		Initialize();
+		playerName.text = DataManager.playerData.playerName;
+		playerName.onEndEdit.AddListener(delegate { OnSubmit(); });
 	}
 
 	private void OnEnable()
 	{
 		XpManager.OnXpCountUpdated += OnXpValueUpdated;
+		
 	}
 
 	private void OnDisable()
 	{
 		XpManager.OnXpCountUpdated -= OnXpValueUpdated;
+		
 	}
 
 	private void OnXpValueUpdated(int xpLevel, long xpCount, long remainingXpCount, bool hasIncreasedPlayerXpLevel)
@@ -107,5 +112,16 @@ public class GameManager : MonoBehaviour
 		}
 	}
 
+	private void OnSubmit()
+	{
+		if(playerName.text.Length > 0)
+		{
+			Debug.Log("GameManager, Player Entered Name");
+			DataManager.playerData.playerName = playerName.text;
+			DataManager.SaveData();
+		}
+	}
+
+	
 	#endregion
 }

@@ -1219,11 +1219,12 @@ MonoBehaviour:
           m_Calls: []
       GameEvents: []
       SoundData:
-        SoundSource: 0
+        SoundSource: 1
         DatabaseName: General
-        SoundName: No Sound
-        AudioClip: {fileID: 0}
-        OutputAudioMixerGroup: {fileID: 0}
+        SoundName: 
+        AudioClip: {fileID: 8300000, guid: 51cc2846ceb680048a19d94445800b9f, type: 3}
+        OutputAudioMixerGroup: {fileID: 24300002, guid: bc155dfdccec1be4780029a8bd542de5,
+          type: 2}
     PresetCategory: Uncategorized
     PresetName: Default
     PunchAnimation:
@@ -1275,13 +1276,13 @@ MonoBehaviour:
         Duration: 1
       Scale:
         AnimationType: 4
-        Enabled: 0
+        Enabled: 1
         From: {x: 0, y: 0, z: 0}
         To: {x: 0, y: 0, z: 0}
-        By: {x: 0, y: 0, z: 0}
+        By: {x: -0.1, y: -0.1, z: 0}
         UseCustomFromAndTo: 0
-        Vibrato: 10
-        Elasticity: 1
+        Vibrato: 0
+        Elasticity: 0
         NumberOfLoops: -1
         LoopType: 1
         EaseType: 0
@@ -1293,7 +1294,7 @@ MonoBehaviour:
           m_PostInfinity: 2
           m_RotationOrder: 4
         StartDelay: 0
-        Duration: 1
+        Duration: 0.2
       Fade:
         AnimationType: 4
         Enabled: 0
@@ -2724,7 +2725,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: -0.1, y: 7}
+  m_AnchoredPosition: {x: -0.099998474, y: 7}
   m_SizeDelta: {x: 31.3, y: 31.301}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!222 &2942209253380370219
@@ -3228,7 +3229,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.45001, y: -0.000021935}
+  m_AnchoredPosition: {x: -0.4500122, y: -0.000021935}
   m_SizeDelta: {x: 153.48, y: 87.82}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4878559864740857489

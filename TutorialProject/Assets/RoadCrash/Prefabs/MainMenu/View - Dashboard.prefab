@@ -1,5 +1,78 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &122631130060890308
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1655714071857405425}
+  - component: {fileID: 1324200353373170364}
+  - component: {fileID: 6793352341419592026}
+  m_Layer: 0
+  m_Name: Image (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1655714071857405425
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 122631130060890308}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 9075693141526428872}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 640, y: 1024}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &1324200353373170364
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 122631130060890308}
+  m_CullTransparentMesh: 0
+--- !u!114 &6793352341419592026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 122631130060890308}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: d18ead44c8159f44884e56c8d3fee4d1, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
 --- !u!1 &223768310129992691
 GameObject:
   m_ObjectHideFlags: 0
@@ -255,8 +328,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 38, y: -20}
-  m_SizeDelta: {x: 239.61, y: 29.95}
+  m_AnchoredPosition: {x: 40, y: -85}
+  m_SizeDelta: {x: 181.72, y: 29.95}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &8976769072960843963
 MonoBehaviour:
@@ -402,7 +475,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &5325731634022506710
 RectTransform:
   m_ObjectHideFlags: 0
@@ -415,7 +488,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 9075693141526428872}
-  m_RootOrder: 12
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -492,7 +565,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -140.9, y: 18}
+  m_AnchoredPosition: {x: -131.7, y: -51.799995}
   m_SizeDelta: {x: 118.2, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1404585950650545693
@@ -516,7 +589,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -527,7 +600,7 @@ MonoBehaviour:
     m_FontStyle: 0
     m_BestFit: 1
     m_MinSize: 10
-    m_MaxSize: 40
+    m_MaxSize: 20
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -677,12 +750,12 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 9075693141526428872}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 16.3, y: -240}
-  m_SizeDelta: {x: 112.14, y: 90.24}
+  m_AnchoredPosition: {x: 14.53, y: -240}
+  m_SizeDelta: {x: 117.34, y: 94.43}
   m_Pivot: {x: 0, y: 1}
 --- !u!222 &2718063574551420261
 CanvasRenderer:
@@ -1645,11 +1718,12 @@ MonoBehaviour:
           m_Calls: []
       GameEvents: []
       SoundData:
-        SoundSource: 0
+        SoundSource: 1
         DatabaseName: General
-        SoundName: No Sound
-        AudioClip: {fileID: 0}
-        OutputAudioMixerGroup: {fileID: 0}
+        SoundName: 
+        AudioClip: {fileID: 8300000, guid: 51cc2846ceb680048a19d94445800b9f, type: 3}
+        OutputAudioMixerGroup: {fileID: 24300002, guid: bc155dfdccec1be4780029a8bd542de5,
+          type: 2}
     PresetCategory: Uncategorized
     PresetName: Default
     PunchAnimation:
@@ -1701,13 +1775,13 @@ MonoBehaviour:
         Duration: 1
       Scale:
         AnimationType: 4
-        Enabled: 0
+        Enabled: 1
         From: {x: 0, y: 0, z: 0}
         To: {x: 0, y: 0, z: 0}
-        By: {x: 0, y: 0, z: 0}
+        By: {x: -0.1, y: -0.1, z: 0}
         UseCustomFromAndTo: 0
-        Vibrato: 10
-        Elasticity: 1
+        Vibrato: 0
+        Elasticity: 0
         NumberOfLoops: -1
         LoopType: 1
         EaseType: 0
@@ -1719,7 +1793,7 @@ MonoBehaviour:
           m_PostInfinity: 2
           m_RotationOrder: 4
         StartDelay: 0
-        Duration: 1
+        Duration: 0.2
       Fade:
         AnimationType: 4
         Enabled: 0
@@ -3080,8 +3154,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -8.4, y: 0}
-  m_SizeDelta: {x: 40, y: 40}
+  m_AnchoredPosition: {x: -8.4, y: 4.7578}
+  m_SizeDelta: {x: 49.52, y: 49.516}
   m_Pivot: {x: 1, y: 0.5}
 --- !u!222 &9002976032742798502
 CanvasRenderer:
@@ -3261,12 +3335,12 @@ RectTransform:
   - {fileID: 2181181572770272775}
   - {fileID: 79104279708703647}
   m_Father: {fileID: 9075693141526428872}
-  m_RootOrder: 13
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 11.244995, y: 171.95}
-  m_SizeDelta: {x: -234.4, y: -911.99}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 405.59998, y: 112.01001}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4197301648214691759
 CanvasRenderer:
@@ -3310,7 +3384,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -0.5}
+  m_AnchoredPosition: {x: 0, y: -0.5000057}
   m_SizeDelta: {x: -20, y: -13}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &9043916310519354667
@@ -3334,7 +3408,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.47058824}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -3421,12 +3495,12 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 9075693141526428872}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: -309.3}
-  m_SizeDelta: {x: 105.95, y: 69.57}
+  m_SizeDelta: {x: 114, y: 72}
   m_Pivot: {x: 1, y: 1}
 --- !u!222 &1970963467945169649
 CanvasRenderer:
@@ -4389,11 +4463,12 @@ MonoBehaviour:
           m_Calls: []
       GameEvents: []
       SoundData:
-        SoundSource: 0
+        SoundSource: 1
         DatabaseName: General
-        SoundName: No Sound
-        AudioClip: {fileID: 0}
-        OutputAudioMixerGroup: {fileID: 0}
+        SoundName: 
+        AudioClip: {fileID: 8300000, guid: 51cc2846ceb680048a19d94445800b9f, type: 3}
+        OutputAudioMixerGroup: {fileID: 24300002, guid: bc155dfdccec1be4780029a8bd542de5,
+          type: 2}
     PresetCategory: Uncategorized
     PresetName: Default
     PunchAnimation:
@@ -4445,13 +4520,13 @@ MonoBehaviour:
         Duration: 1
       Scale:
         AnimationType: 4
-        Enabled: 0
+        Enabled: 1
         From: {x: 0, y: 0, z: 0}
         To: {x: 0, y: 0, z: 0}
-        By: {x: 0, y: 0, z: 0}
+        By: {x: -0.1, y: -0.1, z: 0}
         UseCustomFromAndTo: 0
-        Vibrato: 10
-        Elasticity: 1
+        Vibrato: 0
+        Elasticity: 0
         NumberOfLoops: -1
         LoopType: 1
         EaseType: 0
@@ -4463,7 +4538,7 @@ MonoBehaviour:
           m_PostInfinity: 2
           m_RotationOrder: 4
         StartDelay: 0
-        Duration: 1
+        Duration: 0.2
       Fade:
         AnimationType: 4
         Enabled: 0
@@ -5626,12 +5701,12 @@ RectTransform:
   - {fileID: 7723291781629191752}
   - {fileID: 5680973491477792884}
   m_Father: {fileID: 9075693141526428872}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -17, y: 74}
-  m_SizeDelta: {x: 292.4, y: 64}
+  m_AnchoredPosition: {x: 7.07, y: 14.1}
+  m_SizeDelta: {x: 287.86, y: 63.01}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4171875696240027318
 CanvasRenderer:
@@ -5768,8 +5843,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 38, y: 18}
-  m_SizeDelta: {x: 239.61, y: 29.95}
+  m_AnchoredPosition: {x: 39.999985, y: -51.699997}
+  m_SizeDelta: {x: 181.72, y: 29.95}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &7878870869132424635
 MonoBehaviour:
@@ -5855,7 +5930,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -144, y: -20}
+  m_AnchoredPosition: {x: -129, y: -84.799995}
   m_SizeDelta: {x: 112.1, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5977895076774114389
@@ -5879,7 +5954,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -5890,7 +5965,7 @@ MonoBehaviour:
     m_FontStyle: 0
     m_BestFit: 1
     m_MinSize: 10
-    m_MaxSize: 40
+    m_MaxSize: 20
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -6088,13 +6163,13 @@ RectTransform:
   - {fileID: 6838624739354601379}
   - {fileID: 6838624738255027732}
   m_Father: {fileID: 9075693141526428872}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -153}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 0, y: 156}
   m_SizeDelta: {x: 640, y: 319.24}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_Pivot: {x: 0.5, y: 0}
 --- !u!222 &9075693141020133502
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6164,7 +6239,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 9075693141526428872}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
@@ -7132,11 +7207,12 @@ MonoBehaviour:
           m_Calls: []
       GameEvents: []
       SoundData:
-        SoundSource: 0
+        SoundSource: 1
         DatabaseName: General
-        SoundName: No Sound
-        AudioClip: {fileID: 0}
-        OutputAudioMixerGroup: {fileID: 0}
+        SoundName: 
+        AudioClip: {fileID: 8300000, guid: 51cc2846ceb680048a19d94445800b9f, type: 3}
+        OutputAudioMixerGroup: {fileID: 24300002, guid: bc155dfdccec1be4780029a8bd542de5,
+          type: 2}
     PresetCategory: Uncategorized
     PresetName: Default
     PunchAnimation:
@@ -7188,13 +7264,13 @@ MonoBehaviour:
         Duration: 1
       Scale:
         AnimationType: 4
-        Enabled: 0
+        Enabled: 1
         From: {x: 0, y: 0, z: 0}
         To: {x: 0, y: 0, z: 0}
-        By: {x: 0, y: 0, z: 0}
+        By: {x: -0.1, y: -0.1, z: 0}
         UseCustomFromAndTo: 0
-        Vibrato: 10
-        Elasticity: 1
+        Vibrato: 0
+        Elasticity: 0
         NumberOfLoops: -1
         LoopType: 1
         EaseType: 0
@@ -7206,7 +7282,7 @@ MonoBehaviour:
           m_PostInfinity: 2
           m_RotationOrder: 4
         StartDelay: 0
-        Duration: 1
+        Duration: 0.2
       Fade:
         AnimationType: 4
         Enabled: 0
@@ -8377,7 +8453,7 @@ RectTransform:
   m_Children:
   - {fileID: 4309416220118576492}
   m_Father: {fileID: 9075693141526428872}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -8424,7 +8500,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 9075693141526428872}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
@@ -9392,11 +9468,12 @@ MonoBehaviour:
           m_Calls: []
       GameEvents: []
       SoundData:
-        SoundSource: 0
+        SoundSource: 1
         DatabaseName: General
-        SoundName: No Sound
-        AudioClip: {fileID: 0}
-        OutputAudioMixerGroup: {fileID: 0}
+        SoundName: 
+        AudioClip: {fileID: 8300000, guid: 51cc2846ceb680048a19d94445800b9f, type: 3}
+        OutputAudioMixerGroup: {fileID: 24300002, guid: bc155dfdccec1be4780029a8bd542de5,
+          type: 2}
     PresetCategory: Uncategorized
     PresetName: Default
     PunchAnimation:
@@ -9448,13 +9525,13 @@ MonoBehaviour:
         Duration: 1
       Scale:
         AnimationType: 4
-        Enabled: 0
+        Enabled: 1
         From: {x: 0, y: 0, z: 0}
         To: {x: 0, y: 0, z: 0}
-        By: {x: 0, y: 0, z: 0}
+        By: {x: -0.1, y: -0.1, z: 0}
         UseCustomFromAndTo: 0
-        Vibrato: 10
-        Elasticity: 1
+        Vibrato: 0
+        Elasticity: 0
         NumberOfLoops: -1
         LoopType: 1
         EaseType: 0
@@ -9466,7 +9543,7 @@ MonoBehaviour:
           m_PostInfinity: 2
           m_RotationOrder: 4
         StartDelay: 0
-        Duration: 1
+        Duration: 0.2
       Fade:
         AnimationType: 4
         Enabled: 0
@@ -10628,6 +10705,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 1655714071857405425}
   - {fileID: 9075693141648374498}
   - {fileID: 9075693141215367399}
   - {fileID: 9075693142412082485}
@@ -11209,7 +11287,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 9075693141526428872}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
@@ -12177,11 +12255,12 @@ MonoBehaviour:
           m_Calls: []
       GameEvents: []
       SoundData:
-        SoundSource: 0
+        SoundSource: 1
         DatabaseName: General
-        SoundName: No Sound
-        AudioClip: {fileID: 0}
-        OutputAudioMixerGroup: {fileID: 0}
+        SoundName: 
+        AudioClip: {fileID: 8300000, guid: 51cc2846ceb680048a19d94445800b9f, type: 3}
+        OutputAudioMixerGroup: {fileID: 24300002, guid: bc155dfdccec1be4780029a8bd542de5,
+          type: 2}
     PresetCategory: Uncategorized
     PresetName: Default
     PunchAnimation:
@@ -12233,13 +12312,13 @@ MonoBehaviour:
         Duration: 1
       Scale:
         AnimationType: 4
-        Enabled: 0
+        Enabled: 1
         From: {x: 0, y: 0, z: 0}
         To: {x: 0, y: 0, z: 0}
-        By: {x: 0, y: 0, z: 0}
+        By: {x: -0.1, y: -0.1, z: 0}
         UseCustomFromAndTo: 0
-        Vibrato: 10
-        Elasticity: 1
+        Vibrato: 0
+        Elasticity: 0
         NumberOfLoops: -1
         LoopType: 1
         EaseType: 0
@@ -12251,7 +12330,7 @@ MonoBehaviour:
           m_PostInfinity: 2
           m_RotationOrder: 4
         StartDelay: 0
-        Duration: 1
+        Duration: 0.2
       Fade:
         AnimationType: 4
         Enabled: 0
@@ -13393,6 +13472,7 @@ GameObject:
   - component: {fileID: 9075693141648374511}
   - component: {fileID: 9075693141648374496}
   - component: {fileID: 9075693141648374497}
+  - component: {fileID: 1541729385249569335}
   m_Layer: 0
   m_Name: Button - SpinWheel
   m_TagString: Untagged
@@ -13412,12 +13492,12 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 9075693141526428872}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: -124.4}
-  m_SizeDelta: {x: 105.95, y: 67.05}
+  m_SizeDelta: {x: 114, y: 72}
   m_Pivot: {x: 1, y: 1}
 --- !u!222 &9075693141648374510
 CanvasRenderer:
@@ -14380,13 +14460,14 @@ MonoBehaviour:
           m_Calls: []
       GameEvents: []
       SoundData:
-        SoundSource: 0
-        DatabaseName: General
-        SoundName: No Sound
-        AudioClip: {fileID: 0}
-        OutputAudioMixerGroup: {fileID: 0}
-    PresetCategory: Uncategorized
-    PresetName: Default
+        SoundSource: 1
+        DatabaseName: Example Clicks
+        SoundName: 
+        AudioClip: {fileID: 8300000, guid: 51cc2846ceb680048a19d94445800b9f, type: 3}
+        OutputAudioMixerGroup: {fileID: 24300002, guid: bc155dfdccec1be4780029a8bd542de5,
+          type: 2}
+    PresetCategory: Scale
+    PresetName: ClassicFullScale
     PunchAnimation:
       AnimationType: 4
       Move:
@@ -14436,13 +14517,13 @@ MonoBehaviour:
         Duration: 1
       Scale:
         AnimationType: 4
-        Enabled: 0
+        Enabled: 1
         From: {x: 0, y: 0, z: 0}
         To: {x: 0, y: 0, z: 0}
-        By: {x: 0, y: 0, z: 0}
+        By: {x: -0.1, y: -0.1, z: 0}
         UseCustomFromAndTo: 0
-        Vibrato: 10
-        Elasticity: 1
+        Vibrato: 0
+        Elasticity: 0
         NumberOfLoops: -1
         LoopType: 1
         EaseType: 0
@@ -14454,7 +14535,7 @@ MonoBehaviour:
           m_PostInfinity: 2
           m_RotationOrder: 4
         StartDelay: 0
-        Duration: 1
+        Duration: 0.2
       Fade:
         AnimationType: 4
         Enabled: 0
@@ -14525,17 +14606,17 @@ MonoBehaviour:
         Duration: 1
       Scale:
         AnimationType: 5
-        Enabled: 0
+        Enabled: 1
         From: {x: 0, y: 0, z: 0}
         To: {x: 0, y: 0, z: 0}
-        By: {x: 0, y: 0, z: 0}
+        By: {x: 0.9, y: 0.9, z: 0}
         UseCustomFromAndTo: 0
         Vibrato: 10
         Elasticity: 1
         NumberOfLoops: -1
         LoopType: 1
         EaseType: 0
-        Ease: 1
+        Ease: 15
         AnimationCurve:
           serializedVersion: 2
           m_Curve: []
@@ -14543,7 +14624,7 @@ MonoBehaviour:
           m_PostInfinity: 2
           m_RotationOrder: 4
         StartDelay: 0
-        Duration: 1
+        Duration: 0.2
       Fade:
         AnimationType: 5
         Enabled: 0
@@ -15583,6 +15664,18 @@ MonoBehaviour:
     PresetName: 
   TargetLabel: 1
   TextLabel: {fileID: 0}
+--- !u!225 &1541729385249569335
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9075693141648374499}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &9075693142321109016
 GameObject:
   m_ObjectHideFlags: 0
@@ -15618,7 +15711,7 @@ RectTransform:
   - {fileID: 2717490142334430082}
   - {fileID: 7425297678287461032}
   m_Father: {fileID: 9075693141526428872}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
@@ -16597,11 +16690,12 @@ MonoBehaviour:
             m_CallState: 2
       GameEvents: []
       SoundData:
-        SoundSource: 0
+        SoundSource: 1
         DatabaseName: General
-        SoundName: No Sound
-        AudioClip: {fileID: 0}
-        OutputAudioMixerGroup: {fileID: 0}
+        SoundName: 
+        AudioClip: {fileID: 8300000, guid: 16218b869fb9dab4780f7dab5dac5863, type: 3}
+        OutputAudioMixerGroup: {fileID: 24300002, guid: bc155dfdccec1be4780029a8bd542de5,
+          type: 2}
     PresetCategory: Uncategorized
     PresetName: Default
     PunchAnimation:
@@ -16653,13 +16747,13 @@ MonoBehaviour:
         Duration: 1
       Scale:
         AnimationType: 4
-        Enabled: 0
+        Enabled: 1
         From: {x: 0, y: 0, z: 0}
         To: {x: 0, y: 0, z: 0}
-        By: {x: 0, y: 0, z: 0}
+        By: {x: -0.1, y: -0.1, z: 0}
         UseCustomFromAndTo: 0
-        Vibrato: 10
-        Elasticity: 1
+        Vibrato: 0
+        Elasticity: 0
         NumberOfLoops: -1
         LoopType: 1
         EaseType: 0
@@ -16671,7 +16765,7 @@ MonoBehaviour:
           m_PostInfinity: 2
           m_RotationOrder: 4
         StartDelay: 0
-        Duration: 1
+        Duration: 0.2
       Fade:
         AnimationType: 4
         Enabled: 0
@@ -17844,12 +17938,12 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 9075693141526428872}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: -410.4}
-  m_SizeDelta: {x: 143.51, y: 90.063}
+  m_SizeDelta: {x: 158.34, y: 99.37}
   m_Pivot: {x: 1, y: 1}
 --- !u!222 &9075693142359329042
 CanvasRenderer:
@@ -18812,11 +18906,12 @@ MonoBehaviour:
           m_Calls: []
       GameEvents: []
       SoundData:
-        SoundSource: 0
+        SoundSource: 1
         DatabaseName: General
-        SoundName: No Sound
-        AudioClip: {fileID: 0}
-        OutputAudioMixerGroup: {fileID: 0}
+        SoundName: 
+        AudioClip: {fileID: 8300000, guid: 51cc2846ceb680048a19d94445800b9f, type: 3}
+        OutputAudioMixerGroup: {fileID: 24300002, guid: bc155dfdccec1be4780029a8bd542de5,
+          type: 2}
     PresetCategory: Uncategorized
     PresetName: Default
     PunchAnimation:
@@ -18868,13 +18963,13 @@ MonoBehaviour:
         Duration: 1
       Scale:
         AnimationType: 4
-        Enabled: 0
+        Enabled: 1
         From: {x: 0, y: 0, z: 0}
         To: {x: 0, y: 0, z: 0}
-        By: {x: 0, y: 0, z: 0}
+        By: {x: -0.1, y: -0.1, z: 0}
         UseCustomFromAndTo: 0
-        Vibrato: 10
-        Elasticity: 1
+        Vibrato: 0
+        Elasticity: 0
         NumberOfLoops: -1
         LoopType: 1
         EaseType: 0
@@ -18886,7 +18981,7 @@ MonoBehaviour:
           m_PostInfinity: 2
           m_RotationOrder: 4
         StartDelay: 0
-        Duration: 1
+        Duration: 0.2
       Fade:
         AnimationType: 4
         Enabled: 0
@@ -20047,12 +20142,12 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 9075693141526428872}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: -217.8}
-  m_SizeDelta: {x: 104.71, y: 66.24}
+  m_SizeDelta: {x: 114, y: 72}
   m_Pivot: {x: 1, y: 1}
 --- !u!222 &9075693142412082481
 CanvasRenderer:
@@ -21015,11 +21110,12 @@ MonoBehaviour:
           m_Calls: []
       GameEvents: []
       SoundData:
-        SoundSource: 0
+        SoundSource: 1
         DatabaseName: General
-        SoundName: No Sound
-        AudioClip: {fileID: 0}
-        OutputAudioMixerGroup: {fileID: 0}
+        SoundName: 
+        AudioClip: {fileID: 8300000, guid: 51cc2846ceb680048a19d94445800b9f, type: 3}
+        OutputAudioMixerGroup: {fileID: 24300002, guid: bc155dfdccec1be4780029a8bd542de5,
+          type: 2}
     PresetCategory: Uncategorized
     PresetName: Default
     PunchAnimation:
@@ -21071,13 +21167,13 @@ MonoBehaviour:
         Duration: 1
       Scale:
         AnimationType: 4
-        Enabled: 0
+        Enabled: 1
         From: {x: 0, y: 0, z: 0}
         To: {x: 0, y: 0, z: 0}
-        By: {x: 0, y: 0, z: 0}
+        By: {x: -0.1, y: -0.1, z: 0}
         UseCustomFromAndTo: 0
-        Vibrato: 10
-        Elasticity: 1
+        Vibrato: 0
+        Elasticity: 0
         NumberOfLoops: -1
         LoopType: 1
         EaseType: 0
@@ -21089,7 +21185,7 @@ MonoBehaviour:
           m_PostInfinity: 2
           m_RotationOrder: 4
         StartDelay: 0
-        Duration: 1
+        Duration: 0.2
       Fade:
         AnimationType: 4
         Enabled: 0
@@ -22370,7 +22466,7 @@ PrefabInstance:
     - target: {fileID: 2527920324097176740, guid: e5bd61507106e4f4db70c777559f6263,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 221
+      value: 219.3
       objectReference: {fileID: 0}
     - target: {fileID: 2527920324097176740, guid: e5bd61507106e4f4db70c777559f6263,
         type: 3}
@@ -22545,12 +22641,12 @@ PrefabInstance:
     - target: {fileID: 2527920324097176740, guid: e5bd61507106e4f4db70c777559f6263,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -231
+      value: -206.8
       objectReference: {fileID: 0}
     - target: {fileID: 2527920324097176740, guid: e5bd61507106e4f4db70c777559f6263,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 100
+      value: 107
       objectReference: {fileID: 0}
     - target: {fileID: 6761068197049786270, guid: e5bd61507106e4f4db70c777559f6263,
         type: 3}
@@ -22640,7 +22736,7 @@ PrefabInstance:
     - target: {fileID: 2527920324097176740, guid: e5bd61507106e4f4db70c777559f6263,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 100
+      value: 107
       objectReference: {fileID: 0}
     - target: {fileID: 2527920324097176740, guid: e5bd61507106e4f4db70c777559f6263,
         type: 3}
@@ -22755,12 +22851,12 @@ PrefabInstance:
     - target: {fileID: 2527920324097176740, guid: e5bd61507106e4f4db70c777559f6263,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -231
+      value: -206.90002
       objectReference: {fileID: 0}
     - target: {fileID: 2527920324097176740, guid: e5bd61507106e4f4db70c777559f6263,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: 16.600006
       objectReference: {fileID: 0}
     - target: {fileID: 2527920324097176740, guid: e5bd61507106e4f4db70c777559f6263,
         type: 3}
@@ -22875,12 +22971,12 @@ PrefabInstance:
     - target: {fileID: 2527920324097176740, guid: e5bd61507106e4f4db70c777559f6263,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -72
+      value: -64.5
       objectReference: {fileID: 0}
     - target: {fileID: 2527920324097176740, guid: e5bd61507106e4f4db70c777559f6263,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: 16.600006
       objectReference: {fileID: 0}
     - target: {fileID: 2527920324097176740, guid: e5bd61507106e4f4db70c777559f6263,
         type: 3}
@@ -23000,7 +23096,7 @@ PrefabInstance:
     - target: {fileID: 2527920324097176740, guid: e5bd61507106e4f4db70c777559f6263,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 100
+      value: 107
       objectReference: {fileID: 0}
     - target: {fileID: 2527920324097176740, guid: e5bd61507106e4f4db70c777559f6263,
         type: 3}
@@ -23115,12 +23211,12 @@ PrefabInstance:
     - target: {fileID: 2527920324097176740, guid: e5bd61507106e4f4db70c777559f6263,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 219
+      value: 218.1
       objectReference: {fileID: 0}
     - target: {fileID: 2527920324097176740, guid: e5bd61507106e4f4db70c777559f6263,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -100
+      value: -79.5
       objectReference: {fileID: 0}
     - target: {fileID: 2527920324097176740, guid: e5bd61507106e4f4db70c777559f6263,
         type: 3}
@@ -23235,12 +23331,12 @@ PrefabInstance:
     - target: {fileID: 2527920324097176740, guid: e5bd61507106e4f4db70c777559f6263,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -72
+      value: -63.1
       objectReference: {fileID: 0}
     - target: {fileID: 2527920324097176740, guid: e5bd61507106e4f4db70c777559f6263,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -100
+      value: -79.5
       objectReference: {fileID: 0}
     - target: {fileID: 2527920324097176740, guid: e5bd61507106e4f4db70c777559f6263,
         type: 3}
@@ -23355,12 +23451,12 @@ PrefabInstance:
     - target: {fileID: 2527920324097176740, guid: e5bd61507106e4f4db70c777559f6263,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 219
+      value: 218.2
       objectReference: {fileID: 0}
     - target: {fileID: 2527920324097176740, guid: e5bd61507106e4f4db70c777559f6263,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: 16.6
       objectReference: {fileID: 0}
     - target: {fileID: 2527920324097176740, guid: e5bd61507106e4f4db70c777559f6263,
         type: 3}
@@ -23475,12 +23571,12 @@ PrefabInstance:
     - target: {fileID: 2527920324097176740, guid: e5bd61507106e4f4db70c777559f6263,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -231
+      value: -205.5
       objectReference: {fileID: 0}
     - target: {fileID: 2527920324097176740, guid: e5bd61507106e4f4db70c777559f6263,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -100
+      value: -79.5
       objectReference: {fileID: 0}
     - target: {fileID: 2527920324097176740, guid: e5bd61507106e4f4db70c777559f6263,
         type: 3}
@@ -23595,12 +23691,12 @@ PrefabInstance:
     - target: {fileID: 2527920324097176740, guid: e5bd61507106e4f4db70c777559f6263,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -72
+      value: -64.7
       objectReference: {fileID: 0}
     - target: {fileID: 2527920324097176740, guid: e5bd61507106e4f4db70c777559f6263,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 100
+      value: 107
       objectReference: {fileID: 0}
     - target: {fileID: 2527920324097176740, guid: e5bd61507106e4f4db70c777559f6263,
         type: 3}
@@ -23715,12 +23811,12 @@ PrefabInstance:
     - target: {fileID: 2527920324097176740, guid: e5bd61507106e4f4db70c777559f6263,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 74
+      value: 76.5
       objectReference: {fileID: 0}
     - target: {fileID: 2527920324097176740, guid: e5bd61507106e4f4db70c777559f6263,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: 16.600006
       objectReference: {fileID: 0}
     - target: {fileID: 2527920324097176740, guid: e5bd61507106e4f4db70c777559f6263,
         type: 3}
@@ -23835,12 +23931,12 @@ PrefabInstance:
     - target: {fileID: 2527920324097176740, guid: e5bd61507106e4f4db70c777559f6263,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 74
+      value: 76
       objectReference: {fileID: 0}
     - target: {fileID: 2527920324097176740, guid: e5bd61507106e4f4db70c777559f6263,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -100
+      value: -79.5
       objectReference: {fileID: 0}
     - target: {fileID: 2527920324097176740, guid: e5bd61507106e4f4db70c777559f6263,
         type: 3}
