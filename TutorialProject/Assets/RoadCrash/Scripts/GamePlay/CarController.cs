@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CarController : MonoBehaviour
 {
-    [SerializeField]private EasyJoystick joystick;
+    [SerializeField]private UltimateJoystick joystick;
     [SerializeField]private float movingSpeed = 60f;
 	[Range(-10,10)]
 	[SerializeField] private float xPosRange = 7.8f;
@@ -33,7 +33,7 @@ public class CarController : MonoBehaviour
         if(joystick.IsPressed())
         {
 			
-				rotationZ += joystick.MoveInput().x * sensitivity * rotSpeed * Time.deltaTime;
+				rotationZ += joystick.GetHorizontalAxisRaw() * sensitivity * rotSpeed * Time.deltaTime;
 				rotationZ = Mathf.Clamp(rotationZ, -15, 15);
 				//  transform.rotation = Quaternion.AngleAxis(rotationZ * Time.deltaTime * rotSpeed , Vector3.up);
 				//transform.localEulerAngles = new Vector3(transform.localEulerAngles.x, rotationZ, transform.localEulerAngles.z);
@@ -49,15 +49,15 @@ public class CarController : MonoBehaviour
     }
 	private void Update()
 	{
-		if (Input.GetMouseButtonDown(0))
-		{
-			//Activate Joystick
-			joystick.ShowJoyStivk(true, Input.mousePosition);
-		}
-		else if (Input.GetMouseButtonUp(0))
-		{
-			// Deactivate JoyStick.
-			joystick.ShowJoyStivk(false, Input.mousePosition);
-		}
+		//if (Input.GetMouseButtonDown(0))
+		//{
+		//	//Activate Joystick
+		//	//joystick.ShowJoyStivk(true, Input.mousePosition);
+		//}
+		//else if (Input.GetMouseButtonUp(0))
+		//{
+		//	// Deactivate JoyStick.
+		//	//joystick.ShowJoyStivk(false, Input.mousePosition);
+		//}
 	}
 }
