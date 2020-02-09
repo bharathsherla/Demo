@@ -42,3 +42,4 @@ Thumbs.db
 *.ide
 TutorialProject/.vs/TutorialProject/v15/Server/sqlite3/storage.ide
 *.ide-shm
+*.ide
